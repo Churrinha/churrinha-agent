@@ -73,7 +73,7 @@ with tab1:
     st.markdown("### 🔍 O que está bombando agora?")
     st.markdown("<p style='color:rgba(255,255,255,0.5);font-size:13px;'>Analisa o cenário atual dos games e identifica os tópicos com maior potencial no TikTok BR.</p>", unsafe_allow_html=True)
 
-    genero = st.selectbox("Filtrar por gênero:", ["Qualquer","FPS","RPG","Battle Royale","MOBA","Indie","Mobile","Esports"])
+    genero = st.selectbox("Filtrar por gênero:", ["Qualquer","FPS","RPG","Battle Royale","MOBA","Indie","Mobile","Esports","Retro / Clássicos","Nintendo / SNES / N64","Sega / Mega Drive","Arcade","Survival / Crafting","Simulação","Terror / Horror","Hack and Slash","Plataforma","Luta / Fighting","Corrida / Racing","Puzzle / Casual","Mundo Aberto / Open World","MMO / Online"])
 
     if st.button("🔍 BUSCAR TENDÊNCIAS AGORA"):
         with st.spinner("Analisando o que está bombando no mundo dos games..."):
